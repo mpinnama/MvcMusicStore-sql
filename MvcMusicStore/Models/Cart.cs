@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MvcMusicStore.Models
 {
-    [Table("carts", Schema = "mvcmusicstore_dbo")]
+    [Table("carts", Schema = "mvcmusicstore_mvcmusicstore_dbo")]
     public class Cart
     {
         [Key]

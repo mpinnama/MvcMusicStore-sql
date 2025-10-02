@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MvcMusicStore.Models
 {
-    [Table("orderdetails", Schema = "mvcmusicstore_dbo")]
+    [Table("orderdetails", Schema = "mvcmusicstore_mvcmusicstore_dbo")]
     public class OrderDetail
     {
         [Key]
