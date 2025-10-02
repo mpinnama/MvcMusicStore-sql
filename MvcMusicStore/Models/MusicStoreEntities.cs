@@ -37,7 +37,7 @@ namespace MvcMusicStore.Models
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             // Configure schema mapping for PostgreSQL
-            modelBuilder.HasDefaultSchema("mvcmusicstore_dbo");
+            modelBuilder.HasDefaultSchema("mvcmusicstore_mvcmusicstore_dbo");
 
             // Configure table mappings
             modelBuilder.Entity<Album>().ToTable("albums");

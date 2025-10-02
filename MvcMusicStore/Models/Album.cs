@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MvcMusicStore.Models
 {
-    [Table("albums", Schema = "mvcmusicstore_dbo")]
+    [Table("albums", Schema = "mvcmusicstore_mvcmusicstore_dbo")]
     [Bind]
     public class Album
     {

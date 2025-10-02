@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MvcMusicStore.Models
 {
-    [Table("genres", Schema = "mvcmusicstore_dbo")]
+    [Table("genres", Schema = "mvcmusicstore_mvcmusicstore_dbo")]
     public partial class Genre
     {
         [Key]
