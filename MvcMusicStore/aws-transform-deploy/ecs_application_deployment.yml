@@ -10,6 +10,7 @@ Parameters:
   ECSClusterName:
     Type: String
     Description: 'The ECS Cluster into which to launch resources'
+    Default: 'AWSTransform-Cluster-1-772199'
 
   SubnetIds:
     Type: String

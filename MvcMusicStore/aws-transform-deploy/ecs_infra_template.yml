@@ -5,6 +5,7 @@ Parameters:
   ECSClusterName:
     Type: String
     Description: 'Desired name for the ECS Cluster'
+    Default: 'AWSTransform-Cluster-1-772199'
 
   KmsKeyId:
     Type: String
